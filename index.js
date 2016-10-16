@@ -41,7 +41,6 @@ const create=function(configPath) {
         console.warn('Unable to parse \'arg.json\'.');
         config1={};
     }
-    console.log('create');
     var config2=yargs['argv'];
     delete config2._;
     delete config2.$0;
